@@ -1,0 +1,92 @@
+.rbody {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f17ad100; 
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.rcard-container {
+    width: 100%;
+    max-width: 450px; 
+    background: #fff; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(208, 154, 154, 0.2); 
+    padding: 30px; 
+    text-align: center; 
+    margin: 10px;
+}
+
+h1 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Rounded fields */
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+
+button {
+    background-color: #4c7aaf;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4c7aaf;
+}
+
+.password-warning {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.date-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+/* Responsive Design */
+/* @media (max-width: 600px) {
+    .card-container {
+        padding: 20px;
+    }
+} */

@@ -1,0 +1,99 @@
+/* General Reset
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Card Container */
+/* .card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+} */
+
+/* Heading and Description */
+/* .card h1 {
+  color: #333;
+  margin-bottom: 10px;
+} */
+
+/* .card p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+} */
+
+/* Form Styling */
+/* form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, */
+/* select,
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+} */
+
+/* Button Styling */
+/* button {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Error Styling */
+/* div.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -5px;
+} */
+
+/* Responsive Card */
+/* @media (max-width: 600px) {
+  .card {
+    padding: 20px;
+  }
+} */ 
